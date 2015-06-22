@@ -6,8 +6,8 @@
 
 
 ##预览
-![preview1](preview1.png)
+![preview1](preview1.jpg)
 
-![preview2](preview2.png)
+![preview2](preview2.jpg)
 
-![preview3](preview3.png)
+![preview3](preview3.jpg)
