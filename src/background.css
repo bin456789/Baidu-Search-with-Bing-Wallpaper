@@ -1,0 +1,34 @@
+﻿/*搜索框*/
+#s_kw_wrap, .s_ipt_wr {
+    background-color: #fff !important;
+    opacity: .9;
+}
+
+/*第二屏右侧链接*/
+#u1 a, #ftConw *, .shouji a, #u > a, .headBlock * {
+    color: #fff !important;
+}
+
+/*首页糯米广告*/
+#lm a {
+    color: #fff !important;
+}
+
+/*默认透明背景*/
+.s-skin-container, #head {
+    background: url('chrome-extension://__MSG_@@extension_id__/transparent.png') !important;
+    transition: background-image 1s;
+}
+
+/*稍微美化*/
+#head {
+    border-bottom: initial !important;
+    transition: background-image 1s, box-shadow .1s;
+    /*从下往上滑动动画*/
+    /*transition: all 1s;*/
+}
+
+/*第二屏logo往上移一点*/
+#result_logo {
+    margin-top: 4px !important;
+}

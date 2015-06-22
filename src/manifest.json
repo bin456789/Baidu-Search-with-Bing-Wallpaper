@@ -1,0 +1,33 @@
+﻿{
+    "name": "百度搜索 + 必应壁纸",
+    "description": "为百度搜索添加必应壁纸。",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "permissions": [
+        "storage",
+        "*://www.bing.com/"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://www.baidu.com/",
+                "*://www.baidu.com/s*",
+                "*://www.baidu.com/index*",
+                "*://www.baidu.com/baidu*"
+            ],
+            "js": [ "background.js" ],
+            "css": [ "background.css" ],
+            "run_at": "document_end"
+        }
+    ],
+    "web_accessible_resources": [ "transparent.png" ],
+    "options_ui": {
+        "page": "options.html"
+    },
+    "update_url": "http://upext.chrome.360.cn/intf.php?method=ExtUpdate.query"
+}
